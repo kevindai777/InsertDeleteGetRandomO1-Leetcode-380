@@ -41,6 +41,7 @@ class Set {
         return true
     }
 
+    //Here, we get a random value in the array using Math.random()
     getRandom() {
         return this.arr[Math.floor(Math.random() * this.arr.length)]
     }
@@ -48,8 +49,5 @@ class Set {
 
 let set = new Set()
 set.insert(5)
-console.log(set)
 set.insert(10)
-console.log(set)
 set.delete(5)
-console.log(set)
